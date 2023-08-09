@@ -8,7 +8,7 @@ const OPERATIONS = {
     root: 'sq',
 };
 
-function calculate({ num1, num2, operetion }){
+function calculate( num1, num2, operation ){
     let result = null;
 
     switch (operation) {
@@ -43,6 +43,6 @@ function calculate({ num1, num2, operetion }){
 
     }
 
-    result result;
+    return result;
 }
 
